@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+body {
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    flex-direction: column;
+}
+
+.innerCard {
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    flex-direction: column;
+    color: hsl(0, 0%, 100%);
+    margin: 80px 20px 80px 20px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+
+.insightsPrp {
+    color: hsl(277, 61%, 43%);
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 16px;
+    
+}
+
+.imgHero {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: 100%;
+    opacity: 60%;
+
+}
+
+.overlay {
+    border-radius: 10px 10px 0 0;
+    background-color: hsl(277, 92%, 35%);
+    width: 100%;
+    height: 100%;
+}
+
+.heroWrap {
+    margin: 20px 15px -15px 15px;
+}
+
+h1 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.statWrap {
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
+    line-height: 5px;
+}
+
+h2 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    position: relative;
+}
+
+
+.statGap {
+    margin-bottom: 40px;
+}
+
+.statGap2 {
+    margin-bottom: 40px;
+}
+
+@media (min-width: 850px) {
+    
+    .innerCard {
+        flex-direction: row-reverse;
+        border-radius: 10px 10px 10px 10px;
+        margin: 200px 100px 0 100px;
+    }
+
+    .imgHero {
+        border-radius: 0px 10px 10px 0;
+    }
+
+    .overlay {
+        border-radius: 10px 10px 10px 10px;
+        display: flex;
+        height: auto;
+        width: 100%;
+
+    }
+
+    .statWrap {
+        flex-direction: row;
+    }
+
+    .heroWrap {
+        text-align: left;
+        margin: 50px 90px 0 60px;
+    }
+
+    .statGap2 {
+        margin-left: 40px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    p{
+        font-size: 18px
+    }
+}
